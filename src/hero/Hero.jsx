@@ -5,32 +5,24 @@ function Hero(){
    return(
     <section className="bg-[#010514] text-white flex justify-between px-6">
         <div className="max-w-[80%] mx-auto space-y-8">
-         <h4 className="text-3xl md:text-2xl font-bold">
+                <h4 className="text-3xl md:text-2xl font-bold">
           💻
 Full Stack Developer
          </h4>
          <p className="text-[#0EA5E9] text-lg md:text-xl font-medium">
                📍 Nigeria — Building and Securing the Web
          </p>
-      <p className="text-gray-300 leading-relaxed text-sm md:text-base">
-  Web Developer focused on building modern, responsive, and user-friendly web applications using HTML, CSS, JavaScript, TypeScript, React, Bootstrap, Node.js, Express, MongoDB, and WordPress.
-  
-  <br />
-  <br />
+          <p className="text-gray-300 leading-relaxed text-sm md:text-base">
+       Web Developer focused on building modern, responsive, and user-friendly web applications using HTML, CSS, JavaScript, TypeScript, React, Bootstrap, Node.js, Express, MongoDB, and WordPress.
 
-  I enjoy working across both frontend and backend development while continuously improving my problem-solving skills through Data Structures & Algorithms practice on freeCodeCamp and LeetCode.
+I enjoy working across both frontend and backend development while continuously improving my problem-solving skills through Data Structures & Algorithms practice on freeCodeCamp and LeetCode.
 
-  <br />
-  <br />
+Beyond development, I’m deeply interested in Cybersecurity and secure engineering practices, with the goal of building impactful digital products that solve real-world problems.
 
-  Beyond development, I’m deeply interested in Cybersecurity and secure engineering practices, with the goal of building impactful digital products that solve real-world problems.
-
-  <br />
-  <br />
-
-  Driven by creativity, consistency, and continuous learning.
-</p>
-   <ul className="flex gap-6 mt-6 max-w-7xl mx-auto">
+Driven by creativity, consistency, and continuous learning.
+        </p>
+ 
+<ul className="flex gap-6 mt-6 max-w-7xl mx-auto">
   <li>
     <a href="https://github.com/allbrightrof" target="_blank" className="text-white hover:text-gray-400 transition">
       <FontAwesomeIcon icon={faGithub} />
